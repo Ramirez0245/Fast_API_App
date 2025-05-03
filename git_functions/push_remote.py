@@ -10,7 +10,7 @@ def load_branch():
     PUSH = [
         ["git", "add", "."],
         ["git", "commit", "-m", f'"{COMMIT_MESSAGE}"'],
-        ["git", "push",  "origin", "master:main"],
+        ["git", "push",  "origin", "main:main"],
         ]
     loop_actions(PUSH)
     
